@@ -134,6 +134,8 @@ GameObject:
   - component: {fileID: 44804531}
   - component: {fileID: 44804532}
   - component: {fileID: 44804533}
+  - component: {fileID: 44804535}
+  - component: {fileID: 44804534}
   m_Layer: 0
   m_Name: Support
   m_TagString: Enemy
@@ -234,6 +236,38 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.48186955, y: 0.35576367}
   m_EdgeRadius: 0
+--- !u!114 &44804534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44804530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd729b9e35666e40923e9e2fbe36c82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &44804535
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44804530}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 93f08ef8a560c2c40a5642a603a8004b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &54791725
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,6 +279,8 @@ GameObject:
   - component: {fileID: 54791726}
   - component: {fileID: 54791727}
   - component: {fileID: 54791728}
+  - component: {fileID: 54791730}
+  - component: {fileID: 54791729}
   m_Layer: 0
   m_Name: Fighter
   m_TagString: Enemy
@@ -345,6 +381,38 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.43252364, y: 0.3530221}
   m_EdgeRadius: 0
+--- !u!114 &54791729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54791725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd729b9e35666e40923e9e2fbe36c82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &54791730
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54791725}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 901efd4bb19a0dd49b1233415f5571dd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &325210499
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,6 +424,8 @@ GameObject:
   - component: {fileID: 325210500}
   - component: {fileID: 325210501}
   - component: {fileID: 325210502}
+  - component: {fileID: 325210504}
+  - component: {fileID: 325210503}
   m_Layer: 0
   m_Name: Frigate
   m_TagString: Enemy
@@ -456,6 +526,38 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6381311, y: 0.37221223}
   m_EdgeRadius: 0
+--- !u!114 &325210503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325210499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd729b9e35666e40923e9e2fbe36c82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &325210504
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325210499}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 74d2d9b8d9aa1d645be39f7457571d71, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &490238455
 GameObject:
   m_ObjectHideFlags: 0
@@ -710,7 +812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b68f0bbfbf85f14590bce88a5b0e603, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -833,6 +935,8 @@ GameObject:
   - component: {fileID: 886137283}
   - component: {fileID: 886137284}
   - component: {fileID: 886137285}
+  - component: {fileID: 886137287}
+  - component: {fileID: 886137286}
   m_Layer: 0
   m_Name: Torpedo
   m_TagString: Enemy
@@ -933,6 +1037,38 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.82454836, y: 0.22143352}
   m_EdgeRadius: 0
+--- !u!114 &886137286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886137282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd729b9e35666e40923e9e2fbe36c82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &886137287
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886137282}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 581967ad7c980794da67f814803e7d81, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1009033462
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,6 +1080,8 @@ GameObject:
   - component: {fileID: 1009033463}
   - component: {fileID: 1009033464}
   - component: {fileID: 1009033465}
+  - component: {fileID: 1009033466}
+  - component: {fileID: 1009033468}
   m_Layer: 0
   m_Name: Scout
   m_TagString: Enemy
@@ -1044,6 +1182,38 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.35302222, y: 0.3146422}
   m_EdgeRadius: 0
+--- !u!95 &1009033466
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009033462}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e2b43c222c3ac154bb88e33c5d1560d6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1009033468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009033462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd729b9e35666e40923e9e2fbe36c82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1302272739
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,6 +1225,8 @@ GameObject:
   - component: {fileID: 1302272740}
   - component: {fileID: 1302272741}
   - component: {fileID: 1302272742}
+  - component: {fileID: 1302272744}
+  - component: {fileID: 1302272743}
   m_Layer: 0
   m_Name: Bomber
   m_TagString: Enemy
@@ -1155,6 +1327,38 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.49283522, y: 0.3256079}
   m_EdgeRadius: 0
+--- !u!114 &1302272743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302272739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd729b9e35666e40923e9e2fbe36c82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1302272744
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302272739}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 54f77d3eb0fae3d47913531a366c2bde, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1523989377
 GameObject:
   m_ObjectHideFlags: 0
@@ -1250,6 +1454,7 @@ GameObject:
   - component: {fileID: 1537491570}
   - component: {fileID: 1537491571}
   - component: {fileID: 1537491572}
+  - component: {fileID: 1537491573}
   m_Layer: 0
   m_Name: Dreadnought
   m_TagString: Enemy
@@ -1350,6 +1555,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.025811, y: 1.3088152}
   m_EdgeRadius: 0
+--- !u!114 &1537491573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537491569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd729b9e35666e40923e9e2fbe36c82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1827229192
 GameObject:
   m_ObjectHideFlags: 0
@@ -1554,6 +1771,8 @@ GameObject:
   - component: {fileID: 2042022324}
   - component: {fileID: 2042022325}
   - component: {fileID: 2042022326}
+  - component: {fileID: 2042022328}
+  - component: {fileID: 2042022327}
   m_Layer: 0
   m_Name: Battlecruiser
   m_TagString: Enemy
@@ -1654,3 +1873,35 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9169636, y: 0.99315655}
   m_EdgeRadius: 0
+--- !u!114 &2042022327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042022323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd729b9e35666e40923e9e2fbe36c82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &2042022328
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042022323}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a8556650c2139494eabbc56544223e52, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -6,12 +6,6 @@ public class Projectile : MonoBehaviour
 {
     private float moveSpeed = 5.0f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -27,7 +21,7 @@ public class Projectile : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            Destroy(collision.gameObject);
+            collision.gameObject.GetComponent<Animator>().Play(collision.gameObject.name + "Destroy");
             Destroy(gameObject);
         }
     }
