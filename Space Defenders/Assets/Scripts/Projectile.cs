@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    private PlayerController playerController;
+
     private float moveSpeed = 5.0f;
+
+    private void Start()
+    {
+        playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -22,6 +29,9 @@ public class Projectile : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             collision.gameObject.GetComponent<Animator>().Play(collision.gameObject.name + "Destroy");
+
+            playerController.AddPoints();
+
             Destroy(gameObject);
         }
     }

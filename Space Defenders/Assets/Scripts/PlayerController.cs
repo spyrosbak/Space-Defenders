@@ -2,13 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
-    public Image[] livesIcons; 
+    [SerializeField] private Image[] livesIcons;
+    [SerializeField] private TextMeshProUGUI scoreText;
 
     private float verticalPos;
     private int lives = 3;
+    private int score = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +38,7 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.collider.gameObject.tag == "Enemy")
-        {
+        {   
             Destroy(collision.collider.gameObject);
 
             lives--;
@@ -46,5 +49,11 @@ public class PlayerController : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+    }
+
+    public void AddPoints()
+    {
+        score++;
+        scoreText.text = "Score: " + score;
     }
 }
