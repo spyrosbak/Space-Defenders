@@ -492,6 +492,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &522055552 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+  m_PrefabInstance: {fileID: 5132193282853542052}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &543227531
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,6 +908,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5132193282650355795, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
   m_PrefabInstance: {fileID: 5132193282853542052}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1009033468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522055552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ab914dcbf1dd94dab21fd68037387b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
 --- !u!1 &1220602738
 GameObject:
   m_ObjectHideFlags: 0
@@ -1975,3 +1993,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d06f7cafc98722446b59dfdd2ee70cd0, type: 3}
+--- !u!1 &7143179380197685367 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7143179378933348871, guid: d06f7cafc98722446b59dfdd2ee70cd0, type: 3}
+  m_PrefabInstance: {fileID: 7143179380197685366}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &7143179380197685368
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7143179380197685367}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2f793a5a2453a2a4e8ed56d8a6e8449d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
