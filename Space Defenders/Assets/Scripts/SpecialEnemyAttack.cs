@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyAttack : MonoBehaviour
+public class SpecialEnemyAttack : MonoBehaviour
 {
     [SerializeField] private GameObject enemyProjectile;
     [SerializeField] private float spawnTime;
@@ -20,7 +20,7 @@ public class EnemyAttack : MonoBehaviour
     void Update()
     {
         spawnTimer -= Time.deltaTime;
-        if(spawnTimer <= 0)
+        if (spawnTimer <= 0)
         {
             Instantiate(enemyProjectile, transform.position, Quaternion.Euler(0, 0, 180));
             spawnTimer = spawnTime;
