@@ -7,6 +7,7 @@ using TMPro;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private Image[] livesIcons;
+    [SerializeField] private Sprite[] mainIcon;
     [SerializeField] private TextMeshProUGUI scoreText;
 
     private float verticalPos;
@@ -58,6 +59,7 @@ public class PlayerController : MonoBehaviour
             Destroy(collision.gameObject);
 
             lives--;
+            gameObject.GetComponent<SpriteRenderer>().sprite = mainIcon[lives];
             Destroy(livesIcons[lives]);
 
             if (lives <= 0)

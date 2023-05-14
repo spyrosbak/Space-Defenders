@@ -3953,7 +3953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10ab914dcbf1dd94dab21fd68037387b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
+  enemyProjectile: {fileID: 4891500710802165646, guid: 416ccbf6c00ecbf4883eb710d7780da8, type: 3}
   spawnTime: 2
 --- !u!1001 &1497511710
 PrefabInstance:
@@ -5445,6 +5445,10 @@ MonoBehaviour:
   - {fileID: 1220602740}
   - {fileID: 232105118}
   - {fileID: 367763066}
+  mainIcon:
+  - {fileID: 21300000, guid: 143a59976d55f944fa66a917711d026b, type: 3}
+  - {fileID: 21300000, guid: 5c7bdfa9beaa17d419a994f940b8bccb, type: 3}
+  - {fileID: 21300000, guid: 1550f8894dd3ffa4a8e794aea19b76d3, type: 3}
   scoreText: {fileID: 1730788100}
 --- !u!50 &1887345341
 Rigidbody2D:
@@ -6140,7 +6144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10ab914dcbf1dd94dab21fd68037387b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
+  enemyProjectile: {fileID: 4891500710802165646, guid: 416ccbf6c00ecbf4883eb710d7780da8, type: 3}
   spawnTime: 2
 --- !u!1 &2132687007 stripped
 GameObject:
@@ -6659,5 +6663,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10ab914dcbf1dd94dab21fd68037387b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
+  enemyProjectile: {fileID: 4891500710802165646, guid: 416ccbf6c00ecbf4883eb710d7780da8, type: 3}
   spawnTime: 2
