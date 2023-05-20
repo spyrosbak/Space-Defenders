@@ -64,7 +64,9 @@ public class PlayerController : MonoBehaviour
 
             if (lives <= 0)
             {
-                Destroy(gameObject);
+                Animator mainShipaAnimator = gameObject.GetComponent<Animator>();
+                mainShipaAnimator.enabled = true;
+                mainShipaAnimator.SetTrigger("Destroy");
             }
         }
     }
