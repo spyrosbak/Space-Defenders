@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 1f;
+    [SerializeField] private float moveSpeed;
     [SerializeField] private GameObject reinforcements;
 
     // Update is called once per frame
@@ -15,7 +15,7 @@ public class EnemyMovement : MonoBehaviour
         if (transform.position.x >= 4f || transform.position.x <= -4f)
         {
             transform.position = new Vector2(transform.position.x, transform.position.y - 0.25f);
-            moveSpeed *= -1.05f;
+            moveSpeed *= -1.0f;
         }
 
         if(transform.position.y <= -1.5)

@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             if (state != GameState.PAUSED)
             {
@@ -32,6 +32,15 @@ public class GameManager : MonoBehaviour
             else
             {
                 ResumeGame();
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (state != GameState.PAUSED)
+            {
+                PauseGame();
+                //enable quit panel
             }
         }
     }
