@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Sprite[] mainIcon;
     [SerializeField] private TextMeshProUGUI scoreText;
 
+    private GameManager gameManager;
+    private Animator mainShipaAnimator;
     private float verticalPos;
     private int lives = 3;
     private int score = 0;
@@ -17,22 +19,29 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+
         verticalPos = transform.position.y;
+
+        mainShipaAnimator = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector2 cursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        transform.position = new Vector2(cursorPos.x, verticalPos);
+        if(gameManager.state == GameManager.GameState.START)
+        {
+            Vector2 cursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            transform.position = new Vector2(cursorPos.x, verticalPos);
 
-        if (gameObject.transform.position.x <= -8f)
-        {
-            gameObject.transform.position = new Vector2(-8f, verticalPos);
-        }
-        else if (gameObject.transform.position.x >= 8f)
-        {
-            gameObject.transform.position = new Vector2(8f, verticalPos);
+            if (gameObject.transform.position.x <= -8f)
+            {
+                gameObject.transform.position = new Vector2(-8f, verticalPos);
+            }
+            else if (gameObject.transform.position.x >= 8f)
+            {
+                gameObject.transform.position = new Vector2(8f, verticalPos);
+            }
         }
     }
 
@@ -64,9 +73,9 @@ public class PlayerController : MonoBehaviour
 
             if (lives <= 0)
             {
-                Animator mainShipaAnimator = gameObject.GetComponent<Animator>();
                 mainShipaAnimator.enabled = true;
                 mainShipaAnimator.SetTrigger("Destroy");
+                gameManager.state = GameManager.GameState.LOSE;
             }
         }
     }

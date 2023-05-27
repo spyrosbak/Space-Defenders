@@ -6,10 +6,20 @@ public class Reinforcments : MonoBehaviour
 {
     public float moveSpeed;
 
+    private GameManager gameManager;
+
+    private void Start()
+    {
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+    }
+
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
+        if(gameManager.state == GameManager.GameState.START)
+        {
+            transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
+        }
 
         if (transform.position.x <= -15f)
         {

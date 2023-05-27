@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,11 +15,18 @@ public class GameManager : MonoBehaviour
     }
 
     public GameState state;
+    [SerializeField] private GameObject pausePanel;
+    [SerializeField] private GameObject quitPanel;
+    [SerializeField] private GameObject winPanel;
+    [SerializeField] private GameObject losePanel;
+    [SerializeField] private GameObject enemies;
+    [SerializeField] private GameObject enemyReinforcements;
 
     // Start is called before the first frame update
     void Start()
     {
         state = GameState.START;
+
     }
 
     // Update is called once per frame
@@ -28,10 +37,12 @@ public class GameManager : MonoBehaviour
             if (state != GameState.PAUSED)
             {
                 PauseGame();
+                pausePanel.SetActive(true);
             }
             else
             {
                 ResumeGame();
+                pausePanel.SetActive(false);
             }
         }
 
@@ -40,9 +51,26 @@ public class GameManager : MonoBehaviour
             if (state != GameState.PAUSED)
             {
                 PauseGame();
-                //enable quit panel
+                quitPanel.SetActive(true);
             }
         }
+
+        if(state == GameState.LOSE)
+        {
+            losePanel.SetActive(true);
+        }
+
+        if(enemies.transform.childCount == 0 && enemyReinforcements.transform.childCount == 0)
+        {
+            Win();
+
+            if(winPanel.transform.GetChild(2).GetComponent<Image>().fillAmount == 1.0f)
+            {
+                //change scene
+            }
+        }
+
+        
     }
 
     public void PauseGame()
@@ -55,5 +83,22 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1;
         state = GameState.START;
+    }
+
+    public void QuitGame()
+    {
+
+    }
+
+    public void Win()
+    {
+        state = GameState.WIN;
+        winPanel.SetActive(true);
+        winPanel.transform.GetChild(2).GetComponent<Image>().fillAmount += 0.2f * Time.deltaTime;
+    }
+
+    public void Retry()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
