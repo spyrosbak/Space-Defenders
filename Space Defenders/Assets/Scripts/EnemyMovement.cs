@@ -32,10 +32,5 @@ public class EnemyMovement : MonoBehaviour
                 reinforcements.SetActive(true);
             }
         }
-
-        if (transform.position.y <= -2)
-        {
-            gameManager.state = GameManager.GameState.LOSE;
-        }
     }
 }

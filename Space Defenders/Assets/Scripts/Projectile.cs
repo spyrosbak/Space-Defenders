@@ -5,7 +5,6 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     private PlayerController playerController;
-
     private float moveSpeed = 5.0f;
 
     private void Start()
@@ -29,6 +28,7 @@ public class Projectile : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             collision.gameObject.GetComponent<Animator>().Play(collision.gameObject.name + "Destroy");
+            collision.gameObject.GetComponent<AudioSource>().Play();
 
             playerController.AddPoints();
 

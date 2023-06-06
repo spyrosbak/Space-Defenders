@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Image[] livesIcons;
     [SerializeField] private Sprite[] mainIcon;
     [SerializeField] private TextMeshProUGUI scoreText;
+    [SerializeField] private AudioSource shipDestroyed;
 
     private GameManager gameManager;
     private Animator mainShipaAnimator;
@@ -50,14 +51,14 @@ public class PlayerController : MonoBehaviour
         if(collision.collider.gameObject.tag == "Enemy")
         {   
             Destroy(collision.collider.gameObject);
-
-            lives--;
-            Destroy(livesIcons[lives]);
-
-            if(lives <= 0)
+            
+            foreach(Image icon in livesIcons)
             {
-                Destroy(gameObject);
+                Destroy(icon);
             }
+            
+            Destroy(gameObject);
+            gameManager.state = GameManager.GameState.LOSE;
         }
     }
 
@@ -75,6 +76,7 @@ public class PlayerController : MonoBehaviour
             {
                 mainShipaAnimator.enabled = true;
                 mainShipaAnimator.SetTrigger("Destroy");
+                shipDestroyed.Play();
                 gameManager.state = GameManager.GameState.LOSE;
             }
         }

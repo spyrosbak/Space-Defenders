@@ -15,12 +15,23 @@ public class GameManager : MonoBehaviour
     }
 
     public GameState state;
+
+    [Header("UI")]
     [SerializeField] private GameObject pausePanel;
     [SerializeField] private GameObject quitPanel;
     [SerializeField] private GameObject winPanel;
     [SerializeField] private GameObject losePanel;
     [SerializeField] private GameObject enemies;
     [SerializeField] private GameObject enemyReinforcements;
+
+
+    [Header("Audio")]
+    [SerializeField] private AudioSource pauseSound;
+    [SerializeField] private AudioSource victorySound;
+    [SerializeField] private AudioSource gameOverSound;
+
+    private bool won = false;
+    private bool lost = false;
 
     // Start is called before the first frame update
     void Start()
@@ -55,9 +66,9 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        if(state == GameState.LOSE)
+        if(state == GameState.LOSE && lost == false)
         {
-            losePanel.SetActive(true);
+            Lost();
         }
 
         if(enemies.transform.childCount == 0 && enemyReinforcements.transform.childCount == 0)
@@ -69,18 +80,20 @@ public class GameManager : MonoBehaviour
                 //change scene
             }
         }
-
-        
     }
 
     public void PauseGame()
     {
+        GameObject.FindGameObjectWithTag("MainCamera").GetComponent<AudioSource>().Pause();
+        pauseSound.Play();
         Time.timeScale = 0;
         state = GameState.PAUSED;
     }
 
     public void ResumeGame()
     {
+        pauseSound.Play();
+        GameObject.FindGameObjectWithTag("MainCamera").GetComponent<AudioSource>().Play();
         Time.timeScale = 1;
         state = GameState.START;
     }
@@ -92,9 +105,24 @@ public class GameManager : MonoBehaviour
 
     public void Win()
     {
-        state = GameState.WIN;
-        winPanel.SetActive(true);
-        winPanel.transform.GetChild(2).GetComponent<Image>().fillAmount += 0.2f * Time.deltaTime;
+        if(won == false)
+        {
+            state = GameState.WIN;
+            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<AudioSource>().Stop();
+            victorySound.Play();
+            winPanel.SetActive(true);
+            won = true;
+        }
+        
+        winPanel.transform.GetChild(2).GetComponent<Image>().fillAmount += 0.3f * Time.deltaTime;
+    }
+
+    public void Lost()
+    {
+        lost = true;
+        losePanel.SetActive(true);
+        GameObject.FindGameObjectWithTag("MainCamera").GetComponent<AudioSource>().Stop();
+        gameOverSound.Play();
     }
 
     public void Retry()
