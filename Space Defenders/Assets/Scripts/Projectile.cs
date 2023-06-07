@@ -17,7 +17,7 @@ public class Projectile : MonoBehaviour
     {
         transform.Translate(Vector2.up * moveSpeed * Time.deltaTime);
 
-        if(gameObject.transform.position.y > 6)
+        if(transform.position.x >= 12 || transform.position.x <= -12 || transform.position.y >= 8 || transform.position.y <= -8)
         {
             Destroy(gameObject);
         }

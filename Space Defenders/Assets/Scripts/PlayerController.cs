@@ -51,8 +51,9 @@ public class PlayerController : MonoBehaviour
         if(collision.collider.gameObject.tag == "Enemy")
         {   
             Destroy(collision.collider.gameObject);
-            
-            foreach(Image icon in livesIcons)
+            shipDestroyed.Play();
+
+            foreach (Image icon in livesIcons)
             {
                 Destroy(icon);
             }
@@ -67,6 +68,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.tag == "Projectile")
         {
             Destroy(collision.gameObject);
+            shipDestroyed.Play();
 
             lives--;
             gameObject.GetComponent<SpriteRenderer>().sprite = mainIcon[lives];
@@ -74,10 +76,10 @@ public class PlayerController : MonoBehaviour
 
             if (lives <= 0)
             {
+                gameManager.state = GameManager.GameState.LOSE;
                 mainShipaAnimator.enabled = true;
                 mainShipaAnimator.SetTrigger("Destroy");
                 shipDestroyed.Play();
-                gameManager.state = GameManager.GameState.LOSE;
             }
         }
     }
