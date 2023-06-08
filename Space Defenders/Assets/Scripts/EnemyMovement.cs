@@ -27,7 +27,7 @@ public class EnemyMovement : MonoBehaviour
                 moveSpeed *= -1.0f;
             }
 
-            if (transform.position.y <= -1.5)
+            if (transform.position.y <= -1.5 || gameObject.transform.childCount == 0)
             {
                 reinforcements.SetActive(true);
             }

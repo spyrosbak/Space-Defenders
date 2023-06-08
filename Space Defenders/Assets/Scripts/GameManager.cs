@@ -113,8 +113,11 @@ public class GameManager : MonoBehaviour
             winPanel.SetActive(true);
             won = true;
         }
-        
-        winPanel.transform.GetChild(2).GetComponent<Image>().fillAmount += 0.3f * Time.deltaTime;
+
+        if (winPanel.transform.GetChild(2).GetComponent<Image>())
+        {
+            winPanel.transform.GetChild(2).GetComponent<Image>().fillAmount += 0.5f * Time.deltaTime;
+        }
     }
 
     public void Lost()
