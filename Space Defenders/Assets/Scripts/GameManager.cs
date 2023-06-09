@@ -37,7 +37,6 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         state = GameState.START;
-
     }
 
     // Update is called once per frame
@@ -77,7 +76,7 @@ public class GameManager : MonoBehaviour
 
             if(winPanel.transform.GetChild(2).GetComponent<Image>().fillAmount == 1.0f)
             {
-                //change scene
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
     }
@@ -100,7 +99,7 @@ public class GameManager : MonoBehaviour
 
     public void QuitGame()
     {
-
+        SceneManager.LoadScene(0);
     }
 
     public void Win()
@@ -131,5 +130,10 @@ public class GameManager : MonoBehaviour
     public void Retry()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void EndGame()
+    {
+        SceneManager.LoadScene("CreditsScene");
     }
 }
