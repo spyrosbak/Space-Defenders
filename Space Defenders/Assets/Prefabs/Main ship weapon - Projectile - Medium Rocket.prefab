@@ -243,4 +243,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9205d143cb749347b5dad2d288bd261, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyDestroyed: {fileID: 0}
+  pointsText: {fileID: 5058499153431127751, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}

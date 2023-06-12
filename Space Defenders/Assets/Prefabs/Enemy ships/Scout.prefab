@@ -259,6 +259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1009033473
 AudioSource:
   m_ObjectHideFlags: 0
@@ -369,3 +370,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 10
+  killPoints: 1.1

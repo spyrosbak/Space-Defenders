@@ -147,6 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 20
+  killPoints: 0
 --- !u!82 &37895623
 AudioSource:
   m_ObjectHideFlags: 0
@@ -466,6 +467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &127682759
 AudioSource:
   m_ObjectHideFlags: 0
@@ -586,6 +588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &179979377
 AudioSource:
   m_ObjectHideFlags: 0
@@ -785,6 +788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 20
+  killPoints: 0
 --- !u!82 &211167158
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1300,6 +1304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 20
+  killPoints: 0
 --- !u!82 &311078873
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1415,6 +1420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &343964525
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1535,6 +1541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &350849111
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1731,6 +1738,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &434852392
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1908,6 +1916,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &450254214
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2028,6 +2037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &464727422
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2788,6 +2798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 20
+  killPoints: 0
 --- !u!82 &559743453
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2908,6 +2919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &581889139
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3085,6 +3097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &601236232
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3382,6 +3395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &651865224
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3802,6 +3816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &675191733
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4181,6 +4196,7 @@ RectTransform:
   - {fileID: 2140891612}
   - {fileID: 206190903}
   - {fileID: 1015633508}
+  - {fileID: 1445479596}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4335,6 +4351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 20
+  killPoints: 0
 --- !u!82 &818512934
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4965,6 +4982,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &889408180
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5138,6 +5156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &910157192
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5380,6 +5399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &983746302
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5773,6 +5793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &1101805294
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6469,6 +6490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &1198584022
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6857,6 +6879,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 35
+  killPoints: 0
 --- !u!82 &1244100421
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7311,6 +7334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1330604277
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7488,6 +7512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &1345517076
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8550,6 +8575,113 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1429388903}
   m_CullTransparentMesh: 1
+--- !u!1001 &1445479594
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 747287001}
+    m_Modifications:
+    - target: {fileID: 5328341187860692234, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_Name
+      value: PointsText (TMP)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -800
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+--- !u!1 &1445479595 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5328341187860692234, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+  m_PrefabInstance: {fileID: 1445479594}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1445479596 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+  m_PrefabInstance: {fileID: 1445479594}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1497511710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8745,6 +8877,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &1505932406
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8926,6 +9059,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1517969518
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9539,6 +9673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &1625342455
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9843,6 +9978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &1679018980
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9963,6 +10099,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &1695660182
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10083,6 +10220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &1712003669
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10338,6 +10476,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &1733020154
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10588,6 +10727,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &1819402120
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10873,6 +11013,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1838533967
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11130,6 +11271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1871163873
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11560,6 +11702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &1916539116
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11694,6 +11837,7 @@ MonoBehaviour:
   winPanel: {fileID: 206190902}
   losePanel: {fileID: 1015633507}
   enemies: {fileID: 543227531}
+  pointsText: {fileID: 1445479595}
   enemyReinforcements: {fileID: 890411631}
   pauseSound: {fileID: 1960488156}
   victorySound: {fileID: 1960488157}
@@ -12160,6 +12304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &1983592147
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12504,6 +12649,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 25
+  killPoints: 0
 --- !u!82 &2033278363
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12624,6 +12770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 20
+  killPoints: 0
 --- !u!82 &2047129959
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13149,6 +13296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &2115718839
 AudioSource:
   m_ObjectHideFlags: 0

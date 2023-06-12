@@ -257,3 +257,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4891500710802165646, guid: 416ccbf6c00ecbf4883eb710d7780da8, type: 3}
   spawnTime: 2
+  killPoints: 8

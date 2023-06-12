@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject winPanel;
     [SerializeField] private GameObject losePanel;
     [SerializeField] private GameObject enemies;
+    public GameObject pointsText;
     [SerializeField] private GameObject enemyReinforcements;
 
 
@@ -74,10 +75,22 @@ public class GameManager : MonoBehaviour
         {
             Win();
 
-            if(winPanel.transform.GetChild(2).GetComponent<Image>().fillAmount == 1.0f)
+            if(SceneManager.GetActiveScene().name != "Level 10 (Final Stage)")
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                if (winPanel.transform.GetChild(2).GetComponent<Image>().fillAmount == 1.0f)
+                {
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                }
             }
+        }
+
+        if(state == GameState.START)
+        {
+            Cursor.visible = false;
+        }
+        else
+        {
+            Cursor.visible = true;
         }
     }
 

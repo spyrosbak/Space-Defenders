@@ -147,6 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &61313322
 AudioSource:
   m_ObjectHideFlags: 0
@@ -254,6 +255,10 @@ PrefabInstance:
       propertyPath: spawnTime
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1092092554, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
+      propertyPath: killPoints
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2390304412402304274, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
       propertyPath: m_Name
       value: Support
@@ -316,6 +321,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -392,6 +401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &199512176
 AudioSource:
   m_ObjectHideFlags: 0
@@ -574,6 +584,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -866,6 +880,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &303659979
 AudioSource:
   m_ObjectHideFlags: 0
@@ -973,6 +988,10 @@ PrefabInstance:
       propertyPath: spawnTime
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1092092554, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
+      propertyPath: killPoints
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2390304412402304274, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
       propertyPath: m_Name
       value: Support
@@ -1035,6 +1054,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -1170,6 +1193,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -1233,6 +1260,10 @@ PrefabInstance:
       propertyPath: spawnTime
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1092092554, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
+      propertyPath: killPoints
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2390304412402304274, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
       propertyPath: m_Name
       value: Support
@@ -1295,6 +1326,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -1371,6 +1406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &439336039
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1491,6 +1527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &458163089
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1611,6 +1648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &471332599
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2218,6 +2256,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -2277,6 +2319,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -2336,6 +2382,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -2398,6 +2448,10 @@ PrefabInstance:
     - target: {fileID: 1092092554, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
       propertyPath: spawnTime
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092092554, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
+      propertyPath: killPoints
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2390304412402304274, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
       propertyPath: m_Name
@@ -2572,6 +2626,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -2631,6 +2689,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -2933,6 +2995,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -3009,6 +3075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &736081313
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3205,6 +3272,7 @@ RectTransform:
   - {fileID: 2140891612}
   - {fileID: 206190903}
   - {fileID: 1015633508}
+  - {fileID: 3142327272511946989}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3220,6 +3288,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -3282,6 +3354,10 @@ PrefabInstance:
     - target: {fileID: 1092092554, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
       propertyPath: spawnTime
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092092554, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
+      propertyPath: killPoints
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2390304412402304274, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
       propertyPath: m_Name
@@ -3362,6 +3438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &802233069
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3482,6 +3559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &812461538
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3963,6 +4041,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -4039,6 +4121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &870446416
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4159,6 +4242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &888942616
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4333,6 +4417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &947400076
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4453,6 +4538,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &993442265
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4568,6 +4654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1009033473
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4751,6 +4838,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -4813,6 +4904,10 @@ PrefabInstance:
     - target: {fileID: 1092092554, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
       propertyPath: spawnTime
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092092554, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
+      propertyPath: killPoints
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2390304412402304274, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
       propertyPath: m_Name
@@ -4893,6 +4988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1051657650
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4996,6 +5092,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -5310,6 +5410,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -5386,6 +5490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1131768110
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5506,6 +5611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1197782420
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5609,6 +5715,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -5685,6 +5795,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1208748991
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5788,6 +5899,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -5940,6 +6055,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1220655262
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6060,6 +6176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1222506461
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6298,6 +6415,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -6357,6 +6478,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -6551,6 +6676,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -6745,6 +6874,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -6807,6 +6940,10 @@ PrefabInstance:
     - target: {fileID: 1092092554, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
       propertyPath: spawnTime
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092092554, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
+      propertyPath: killPoints
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2390304412402304274, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
       propertyPath: m_Name
@@ -7515,6 +7652,10 @@ PrefabInstance:
       propertyPath: spawnTime
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1092092554, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
+      propertyPath: killPoints
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2390304412402304274, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
       propertyPath: m_Name
       value: Support
@@ -7662,6 +7803,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1415417492
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7917,6 +8059,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1430366085
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8037,6 +8180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1450909539
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8157,6 +8301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1493454458
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8277,6 +8422,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1494767391
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8380,6 +8526,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -8456,6 +8606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1513717155
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8799,6 +8950,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -9010,6 +9165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1549777625
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9117,6 +9273,10 @@ PrefabInstance:
       propertyPath: spawnTime
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1092092554, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
+      propertyPath: killPoints
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2390304412402304274, guid: eb8ec5b0ce4b3704ab760fff313cd0bd, type: 3}
       propertyPath: m_Name
       value: Support
@@ -9196,6 +9356,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1621163387
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9299,6 +9460,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -9358,6 +9523,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -9434,6 +9603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1710461980
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9554,6 +9724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1716002060
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9674,6 +9845,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1722199937
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9912,6 +10084,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -10106,6 +10282,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -10165,6 +10345,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -10257,6 +10441,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -10584,6 +10772,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -10660,6 +10852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &1947032773
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10794,6 +10987,7 @@ MonoBehaviour:
   winPanel: {fileID: 206190902}
   losePanel: {fileID: 1015633507}
   enemies: {fileID: 543227531}
+  pointsText: {fileID: 3142327272511946988}
   enemyReinforcements: {fileID: 890411631}
   pauseSound: {fileID: 1960488156}
   victorySound: {fileID: 1960488157}
@@ -11191,6 +11385,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -11250,6 +11448,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -11326,6 +11528,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &2001497792
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11429,6 +11632,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -11545,6 +11752,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 4129791294904181120, guid: 3dac1efcc83c8f644a7168bbbe32342f, type: 3}
   spawnTime: 30
+  killPoints: 0
 --- !u!82 &2033881160
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12053,6 +12261,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -12184,6 +12396,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2140891611}
   m_CullTransparentMesh: 1
+--- !u!1 &3142327272511946988 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5328341187860692234, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+  m_PrefabInstance: {fileID: 7091436673222589926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &3142327272511946989 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+  m_PrefabInstance: {fileID: 7091436673222589926}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5132193282853542052
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12191,6 +12413,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543227532}
     m_Modifications:
+    - target: {fileID: 276934907, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+      propertyPath: killPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5132193282650355794, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
       propertyPath: m_Name
       value: Scout
@@ -12243,3 +12469,100 @@ PrefabInstance:
     - {fileID: 1009033468, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
     - {fileID: 1009033473, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 08de450ad08f95d4bac3912746b3a2bc, type: 3}
+--- !u!1001 &7091436673222589926
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 747287001}
+    m_Modifications:
+    - target: {fileID: 5328341187860692234, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_Name
+      value: PointsText (TMP)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -800
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328341187860692235, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 26f99e9a868aa0442a7ef08a51e4ad59, type: 3}

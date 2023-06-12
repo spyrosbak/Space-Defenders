@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyMovement : MonoBehaviour
 {
@@ -27,10 +28,21 @@ public class EnemyMovement : MonoBehaviour
                 moveSpeed *= -1.0f;
             }
 
-            if (transform.position.y <= -1.5 || gameObject.transform.childCount == 0)
+            if (SceneManager.GetActiveScene().name != "Level 10 (Final Stage)")
             {
-                reinforcements.SetActive(true);
+                if (transform.position.y <= -1.5 || gameObject.transform.childCount == 0)
+                {
+                    reinforcements.SetActive(true);
+                }
             }
+            else
+            {
+                if (gameObject.transform.childCount == 0)
+                {
+                    reinforcements.SetActive(true);
+                }
+            }
+            
         }
     }
 }

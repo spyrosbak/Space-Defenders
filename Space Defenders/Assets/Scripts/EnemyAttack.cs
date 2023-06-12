@@ -6,6 +6,7 @@ public class EnemyAttack : MonoBehaviour
 {
     [SerializeField] private GameObject enemyProjectile;
     [SerializeField] private float spawnTime;
+    public int killPoints;
 
     private GameManager gameManager;
     private float minSpawnTime = 5.0f;

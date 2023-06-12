@@ -84,9 +84,9 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void AddPoints()
+    public void AddPoints(int points)
     {
-        score++;
+        score += points;
         scoreText.text = "Score: " + score;
     }
 }
