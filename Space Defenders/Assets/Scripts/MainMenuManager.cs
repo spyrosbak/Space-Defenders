@@ -8,6 +8,14 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] private GameObject chasingShips;
     [SerializeField] private Transform[] spawnPlaces;
 
+    private void Awake()
+    {
+        if (PlayerPrefs.HasKey("SavedScore"))
+        {
+            PlayerPrefs.DeleteKey("SavedScore");
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {

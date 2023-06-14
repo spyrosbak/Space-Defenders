@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     private Animator mainShipaAnimator;
     private float verticalPos;
     private int lives = 3;
-    private int score = 0;
+    private int score;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +25,16 @@ public class PlayerController : MonoBehaviour
         verticalPos = transform.position.y;
 
         mainShipaAnimator = gameObject.GetComponent<Animator>();
+
+        if (PlayerPrefs.HasKey("SavedScore"))
+        {
+            score = PlayerPrefs.GetInt("SavedScore");
+            scoreText.text = "Score: " + score;
+        }
+        else
+        {
+            score = 0;
+        }
     }
 
     // Update is called once per frame
@@ -87,6 +97,7 @@ public class PlayerController : MonoBehaviour
     public void AddPoints(int points)
     {
         score += points;
-        scoreText.text = "Score: " + score;
+        PlayerPrefs.SetInt("SavedScore", score);
+        scoreText.text = "Score:" + score;
     }
 }

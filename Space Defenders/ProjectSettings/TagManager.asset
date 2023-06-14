@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Enemy
   - Projectile
+  - Fire
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Buttons
   - Water
   - UI
   - 

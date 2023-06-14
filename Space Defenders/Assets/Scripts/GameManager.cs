@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class GameManager : MonoBehaviour
     }
 
     public GameState state;
+    
+    [SerializeField] private GameObject enemyReinforcements;
 
     [Header("UI")]
     [SerializeField] private GameObject pausePanel;
@@ -23,8 +26,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject losePanel;
     [SerializeField] private GameObject enemies;
     public GameObject pointsText;
-    [SerializeField] private GameObject enemyReinforcements;
-
 
     [Header("Audio")]
     [SerializeField] private AudioSource pauseSound;
@@ -37,6 +38,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1;
+
         state = GameState.START;
     }
 
