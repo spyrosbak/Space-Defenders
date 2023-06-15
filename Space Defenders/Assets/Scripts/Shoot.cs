@@ -36,7 +36,7 @@ public class Shoot : MonoBehaviour
         cooldown.fillAmount = 0;
         canShoot = false;
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.75f);
 
         cooldown.fillAmount = 1;
         if (cooldown.fillAmount == 1f)
